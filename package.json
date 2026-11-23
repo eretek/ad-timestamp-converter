@@ -1,0 +1,15 @@
+{
+  "name": "ad-timestamp-converter",
+  "version": "1.1.3",
+  "private": true,
+  "description": "Convert Active Directory FILETIME values (lastLogonTimestamp, pwdLastSet, accountExpires) to UTC and local time; reverse from Unix and ISO dates; special values.",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://sistem.eretek.com/en/tools/ad-timestamp-converter",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node test/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
